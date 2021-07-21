@@ -23,6 +23,8 @@ The default is running on a FFat file system. It can easily be changed to Little
 
 When running, enter the ESP32's IP in a web browser, and you will see the root page like in the left side of the picture below. Click on the link `Download Data by JS`, and another page opens showing the downloaded content, like in the right side of the picture. This continues automatically, and every 100 downloads another line will be added to the root page (refresh to see).
 
+The IDE also creates a log file. The one from platformio start-up is provided as `platformio-monitor.log`.
+
 ![Auswahl_022](https://user-images.githubusercontent.com/9335726/126503324-2452d67c-21b1-4fc1-8a1d-9883ccb4bfc4.png)
 
 **How this works**
