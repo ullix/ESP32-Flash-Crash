@@ -5,7 +5,7 @@ This is discussed in detail here: https://github.com/me-no-dev/ESPAsyncWebServer
 
 **In short:** 
 
-The download of files > 150k Bytes via WiFi results in a crash induced by Watch-Dog-Timer (WDT) on task `async_tcp (CPU 1)`. This happens on all types of ESP32 of the "classic" type (new versions S2, S3, C3 not yet tested). 
+The download of files > 150k Bytes via WiFi results in a crash induced by Watch-Dog-Timer (WDT) on task `async_tcp (CPU 1)`. This happens on all types of ESP32 of the "classic" type (new versions S2, S3, C3 not yet tested). This may happen on every second download attempt!
 
 When tested with ESP8266 (the present code is for ESP32-only but can be easily adapted to ESP8266) a WDT crash was **NEVER** seen!
 
