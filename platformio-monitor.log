@@ -1,0 +1,113 @@
+14:22:32.855 > setup started #######################################################################################
+14:22:32.865 > [I][FlashCrash.cpp:54] setup(): configMAX_PRIORITIES: 25
+14:22:32.870 > [I][FlashCrash.cpp:57] setup(): Flash Chip Size: 4.00 MB  (4194304 Bytes)
+14:22:32.876 > [I][FlashCrash.cpp:58] setup(): Flash Chip id  : d84016, manufacturer: d8, device: 4016
+14:22:32.884 >
+14:22:32.884 > [I][myfilesystem.cpp:13] initFileSystem(): Init FileSystem
+14:22:32.889 > [I][myfilesystem.cpp:20] initFileSystem():    File system 'FFat' was mounted successfully
+14:22:32.897 > [I][myfilesystem.cpp:33] initFileSystem():    Found data file '/TEST300k.cam' of proper size: 300 KB
+14:22:32.906 > [I][myfilesystem.cpp:51] initFileSystem():    Filesystem size: Total:1424 KB, Used: 804 KB, Free: 620 KB
+14:22:32.915 > [I][myfilesystem.cpp:56] initFileSystem():    File Listing:
+14:22:32.921 > File                                    Bytes      KB
+14:22:32.925 > /root500k.cam                          512000   500.0
+14:22:32.930 > /TEST300k.cam                          307200   300.0
+14:22:32.935 > /crash.log                               1287     1.3
+14:22:32.940 > TOTAL:                                 820487   801.3
+14:22:32.945 >
+14:22:32.945 > [I][mynvs.cpp:15] initNVS(): Init NVS
+14:22:32.948 > [I][mynvs.cpp:16] initNVS():    NVS Free Entries: 470
+14:22:32.953 > [I][mynvs.cpp:33] initNVS():    NVS Free Entries: 470,  NVS Boots: 1, NVS Downloads: 6, Waitperiod: 50
+14:22:32.962 >
+14:22:32.962 > [I][mywifi.cpp:12] initWiFi(): Init WiFi
+14:22:32.966 > [I][mywifi.cpp:18] initWiFi():    setting mode 'WIFI_OFF'
+14:22:32.971 > [I][mywifi.cpp:23] initWiFi():    setting mode 'WIFI_MODE_STA'
+14:22:33.086 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 0 - WIFI_READY
+14:22:33.092 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 2 - STA_START
+14:22:33.098 > [I][mywifi.cpp:28] initWiFi():    Default     TXPower:       80
+14:22:33.103 > [I][mywifi.cpp:34] initWiFi():    Default     AutoReconnect: 1
+14:22:33.109 > [I][mywifi.cpp:55] initWiFi():    1st WiFi.begin
+14:22:35.232 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 4 - STA_CONNECTED
+14:22:35.247 > [D][WiFiGeneric.cpp:374] _eventCallback(): Event: 7 - STA_GOT_IP
+14:22:35.253 > [D][WiFiGeneric.cpp:419] _eventCallback(): STA IP: 10.0.0.106, MASK: 255.255.255.0, GW: 10.0.0.1
+14:22:35.305 > [I][mywifi.cpp:60] initWiFi():    Status: 3, 1st Connect Result after: 2207 ms
+14:22:35.312 > [I][mywifi.cpp:64] initWiFi():    Status: 3, Connected; no 2nd Connect needed
+14:22:35.319 > [I][mywifi.cpp:80] initWiFi():    Status: 3, Total Connect Result after: 2210 ms, IP: 10.0.0.106
+14:22:35.328 >
+14:22:35.328 > [I][mywebserver.cpp:14] initWebServer(): Init WebServer
+14:22:35.333 > [I][mywebserver.cpp:64] initWebServer():    Webserver begin
+14:22:35.338 > setup finished -----------------------------------------------------------------  countOfBoots: 1
+14:27:24.164 > [I][mywebserver.cpp:71] getPage_Web(): url: '/'
+14:27:25.986 > [I][mywebserver.cpp:71] getPage_Web(): url: '/'
+14:27:26.908 > [I][mywebserver.cpp:71] getPage_Web(): url: '/'
+14:27:27.215 > [I][mywebserver.cpp:71] getPage_Web(): url: '/'
+14:27:28.405 > [W][AsyncTCP.cpp:933] _poll(): pcb is NULL
+
+14:27:34.592 >
+14:27:34.593 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:34.652 > [I][mywebserver.cpp:47] operator()(): JS ended -- #7 - /TEST300k.cam  dur:17 ms  Core:1  Boots:1  Wait:50
+14:27:35.715 >
+14:27:35.716 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:35.773 > [I][mywebserver.cpp:47] operator()(): JS ended -- #8 - /TEST300k.cam  dur:19 ms  Core:1  Boots:1  Wait:50
+14:27:36.841 >
+14:27:36.842 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:36.906 > [I][mywebserver.cpp:47] operator()(): JS ended -- #9 - /TEST300k.cam  dur:23 ms  Core:1  Boots:1  Wait:50
+14:27:37.968 >
+14:27:37.969 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:38.028 > [I][mywebserver.cpp:47] operator()(): JS ended -- #10 - /TEST300k.cam  dur:26 ms  Core:1  Boots:1  Wait:50
+14:27:39.100 >
+14:27:39.101 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:39.164 > [I][mywebserver.cpp:47] operator()(): JS ended -- #11 - /TEST300k.cam  dur:26 ms  Core:1  Boots:1  Wait:50
+14:27:40.225 >
+14:27:40.226 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:40.291 > [I][mywebserver.cpp:47] operator()(): JS ended -- #12 - /TEST300k.cam  dur:24 ms  Core:1  Boots:1  Wait:50
+14:27:41.859 >
+14:27:41.860 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:41.919 > [I][mywebserver.cpp:47] operator()(): JS ended -- #13 - /TEST300k.cam  dur:26 ms  Core:1  Boots:1  Wait:50
+14:27:43.912 >
+14:27:43.912 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:43.960 > [I][mywebserver.cpp:47] operator()(): JS ended -- #14 - /TEST300k.cam  dur:19 ms  Core:1  Boots:1  Wait:50
+14:27:45.862 >
+14:27:45.863 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:45.912 > [I][mywebserver.cpp:47] operator()(): JS ended -- #15 - /TEST300k.cam  dur:25 ms  Core:1  Boots:1  Wait:50
+14:27:47.901 >
+14:27:47.902 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:47.964 > [I][mywebserver.cpp:47] operator()(): JS ended -- #16 - /TEST300k.cam  dur:20 ms  Core:1  Boots:1  Wait:50
+14:27:49.849 >
+14:27:49.850 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:49.912 > [I][mywebserver.cpp:47] operator()(): JS ended -- #17 - /TEST300k.cam  dur:21 ms  Core:1  Boots:1  Wait:50
+14:27:51.895 >
+14:27:51.896 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:51.942 > [I][mywebserver.cpp:47] operator()(): JS ended -- #18 - /TEST300k.cam  dur:22 ms  Core:1  Boots:1  Wait:50
+14:27:53.841 >
+14:27:53.842 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:53.897 > [I][mywebserver.cpp:47] operator()(): JS ended -- #19 - /TEST300k.cam  dur:24 ms  Core:1  Boots:1  Wait:50
+14:27:54.862 >
+14:27:54.864 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:54.914 > [I][mywebserver.cpp:47] operator()(): JS ended -- #20 - /TEST300k.cam  dur:22 ms  Core:1  Boots:1  Wait:50
+14:27:56.926 >
+14:27:56.927 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:56.982 > [I][mywebserver.cpp:47] operator()(): JS ended -- #21 - /TEST300k.cam  dur:27 ms  Core:1  Boots:1  Wait:50
+14:27:58.864 >
+14:27:58.865 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:27:58.913 > [I][mywebserver.cpp:47] operator()(): JS ended -- #22 - /TEST300k.cam  dur:20 ms  Core:1  Boots:1  Wait:50
+14:28:00.905 >
+14:28:00.906 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:28:00.957 > [I][mywebserver.cpp:47] operator()(): JS ended -- #23 - /TEST300k.cam  dur:22 ms  Core:1  Boots:1  Wait:50
+14:28:02.855 >
+14:28:02.856 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:28:02.908 > [I][mywebserver.cpp:47] operator()(): JS ended -- #24 - /TEST300k.cam  dur:23 ms  Core:1  Boots:1  Wait:50
+14:28:04.898 >
+14:28:04.900 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:28:04.944 > [I][mywebserver.cpp:47] operator()(): JS ended -- #25 - /TEST300k.cam  dur:19 ms  Core:1  Boots:1  Wait:50
+14:28:06.845 >
+14:28:06.846 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:28:06.897 > [I][mywebserver.cpp:47] operator()(): JS ended -- #26 - /TEST300k.cam  dur:20 ms  Core:1  Boots:1  Wait:50
+14:28:08.892 >
+14:28:08.894 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:28:08.936 > [I][mywebserver.cpp:47] operator()(): JS ended -- #27 - /TEST300k.cam  dur:17 ms  Core:1  Boots:1  Wait:50
+14:28:10.838 >
+14:28:10.839 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:28:10.887 > [I][mywebserver.cpp:47] operator()(): JS ended -- #28 - /TEST300k.cam  dur:20 ms  Core:1  Boots:1  Wait:50
+14:28:12.887 >
+14:28:12.888 > [I][mywebserver.cpp:269] getPage_BinData(): start
+14:28:12.937 > [I][mywebserver.cpp:47] operator()(): JS ended -- #29 - /TEST300k.cam  dur:17 ms  Core:1  Boots:1  Wait:50
