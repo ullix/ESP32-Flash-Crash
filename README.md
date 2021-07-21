@@ -1,5 +1,5 @@
 # ESP32-Flash-Crash
-Code to demonstrate the Watch-Dog-Timer induces crashing of an ESP32 when downloading large files > 150k via WiFi
+### Code to demonstrate the Watch-Dog-Timer induced crashing of an ESP32 when downloading large files > 150k via WiFi
 
 This is discussed in detail here: https://github.com/me-no-dev/ESPAsyncWebServer/issues/984
 
@@ -15,7 +15,7 @@ While all types of ESP32 tested have shown this behaviour, its intensity seems t
 
 **How to run this code:**
 
-Download zip-file for your IDE, PlatformIO or Arduino (test on Ar2.0Beta7), unzip, and open. The code is identical for both IDE, only the file naming is different. 
+Download zip-file for your IDE, PlatformIO or Arduino (test on Ar2.0Beta7), unzip, and open. The code is identical for both IDEs, only the file naming is different. 
 
 In file `FlashCrash.h` enter you proper WiFi credentials (line 14ff). Upload and run.
 
