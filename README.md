@@ -9,7 +9,7 @@ The download of files > 150k Bytes via WiFi results in a crash induced by Watch-
 
 When tested with ESP8266 (the present code is for ESP32-only but can be easily adapted to ESP8266) a WDT crash was NEVER seen!
 
-On an ESP32 files smaller than 100k never result in a WDT crash. The transition from "never crashing" to "crashing" is between 100k and 150k files sizes. Worst effect was observed at a file size of 300k. Strangely, it actually got a little bit better at even large files.
+On an ESP32 files smaller than 100k never result in a WDT crash. The transition from "never crashing" to "crashing" is between 100k and 150k files sizes. Worst effect was observed at a file size of 300k. Strangely, it actually got a little bit better at even larger files.
 
 While all types of ESP32 tested have shown this behaviour, its intensity seems to depend on the type of flash being used!
 
